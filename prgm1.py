@@ -8,13 +8,13 @@ Comp_Sci=int(input("Enter your marks in Computer Science: "))
 total=English+Chemistry+Pak_Studies+Sindhi+Comp_Sci
 print(total)
 avg=(total/5)
-if avg>=80:
+if avg>=80 and avg<=100:
     print("Grade A1")
-elif avg>=70:
+elif avg>=70 and avg<=80:
     print("Grade A")
-elif avg>=60:
+elif avg>=60 and avg<=70:
     print("Grade B")
-elif avg>=50:
+elif avg>=50 and avg<=60:
     print("Grade C")
 else:
     print("You are fail")
