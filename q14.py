@@ -1,0 +1,5 @@
+#Write a Python program to solve (x + y) * (x + y)
+x = int(input("Enter any number: "))
+y = int(input("Enter any number: "))
+result = (x+y) * (x+y)
+print("The result of the equation is: " +str(result))
